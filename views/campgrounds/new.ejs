@@ -7,18 +7,24 @@
                 <label class="form-label" for="title">Title</label>
                 <input class="form-control" type="text" id="title" name="campground[title]" required>
                 <div class="valid-feedback">
-                    Done
+                    Good!
                 </div>
             </div>
             <div class="mb-3">
                 <label class="form-label" for="location">Location</label>
                 <input class="form-control" type="text" id="location" name="campground[location]" required>
                 <div class="valid-feedback">
-                    Done
+                    Good!
                 </div>
             </div>
-            <input type="file" name="image" id="" multiple>
 
+            <!-- <div class="mb-3">
+                <label class="form-label" for="image">Image Url</label>
+                <input class="form-control" type="text" id="image" name="campground[image]" required>
+                <div class="valid-feedback">
+                    Good!
+                </div>
+            </div> -->
             <div class="mb-3">
                 <label class="form-label" for="price">Campground Price</label>
                 <div class="input-group">
@@ -27,16 +33,26 @@
                         aria-describedby="price-label" name="campground[price]" required>
                 </div>
                 <div class="valid-feedback">
-                    Done
+                    Good!
                 </div>
             </div>
 
             <div class="mb-3">
                 <label class="form-label" for="description">Description</label>
-                <textarea class="form-control" type="text" id="description" name="campground[description]" required></textarea>
+                <textarea class="form-control" type="text" id="description" name="campground[description]"
+                    required></textarea>
+                <div class="valid-feedback">
+                    Good!
+                </div>
             </div>
-            <div class="valid-feedback">
-                Done
+            <div class="mb-3">
+                <div class="form-file custom-file">
+                    <input type="file" class="form-file-input" id="image" name="image" multiple>
+                    <label class="form-file-label" for="image">
+                        <span class="form-file-text custom-file-label">Choose image(s)...</span>
+                        <span class="form-file-button">Browse</span>
+                    </label>
+                </div>
             </div>
             <div class="mb-3">
                 <button class="btn btn-success">Add Campground</button>
@@ -45,4 +61,3 @@
         <a href="/campgrounds">All Campgrounds</a>
     </div>
 </div>
-
