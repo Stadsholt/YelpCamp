@@ -29,7 +29,7 @@ router.get('/login', (req, res) => {    // render login page
 })
 
 router.post('/login', passport.authenticate('local', { failureFlash: true, failureRedirect: '/login' }), (req, res) => {   // magic "authenticate" passport middleware. + storereturnto middleware
-    req.flash('success', 'welcome back!');
+    req.flash('success', 'Welcome back!');
     const redirectUrl = req.session.returnTo || '/campgrounds';
     delete req.session.returnTo;
     res.redirect(redirectUrl);
@@ -38,7 +38,7 @@ router.post('/login', passport.authenticate('local', { failureFlash: true, failu
 router.get('/logout', (req, res, next) => {
     req.logout(function(err) {
         if (err) { return next(err); }
-        req.flash('success', "Goodbye!");
+        req.flash('success', "Logged out");
         res.redirect('/campgrounds');
     });
 });
