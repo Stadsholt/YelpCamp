@@ -4,41 +4,41 @@ YelpCamp is a web application designed for adventurers to create, share, and rev
 
 ## Functionalities
 
-> Browse campgrounds and read reviews without logging in.
+- Browse campgrounds and read reviews without logging in.
 
-> Register and log in to add or modify campground details and comments.
+- Register and log in to add or modify campground details and comments.
 
-> Only authors can edit or delete their own content.
+- Only authors can edit or delete their own content.
 
-> All data is securely stored and managed in the Amazon Cloud.
+- All data is securely stored and managed in the Amazon Cloud.
 
 ## Technology list
 
-> **Node.js:** For server-side JavaScript execution.
+- **Node.js:** For server-side JavaScript execution.
 
-> **CSS3**: For adding styles to web pages.
+- **CSS3**: For adding styles to web pages.
 
-> **PassportJS**: For authentication middleware.
+- **PassportJS**: For authentication middleware.
 
-> **Render**: For deploying the web application.
+- **Render**: For deploying the web application.
 
-> **Bootstrap**: For responsive design and quick development.
+- **Bootstrap**: For responsive design and quick development.
 
-> **REST**: For web service architecture.
+- **REST**: For web service architecture.
 
-> **HTML5**: For creating web page structure.
+- **HTML5**: For creating web page structure.
 
-> **MongoDB**: For storing user and campground data.
+- **MongoDB**: For storing user and campground data.
 
-> **jQuery**: For simplifying JavaScript operations.
+- **jQuery**: For simplifying JavaScript operations.
 
-> **AWS**: For hosting the MongoDB database on Amazon EC2.
+- **AWS**: For hosting the MongoDB database on Amazon EC2.
 
-> **DOM Manipulation**: For dynamic updates to web pages.
+- **DOM Manipulation**: For dynamic updates to web pages.
 
-> **Express.js**: For web application framework.
+- **Express.js**: For web application framework.
 
-> **Data Associations**: For linking user data with campgrounds and comments.
+- **Data Associations**: For linking user data with campgrounds and comments.
 
 ## Homepage
 
@@ -49,7 +49,7 @@ YelpCamp is a web application designed for adventurers to create, share, and rev
 ## Campgrounds
 
 <div>
-  <img src="https://github.com/Stadsholt/YelpCamp/blob/main/images/CAmpgrounds.png">
+  <img src="https://github.com/Stadsholt/YelpCamp/blob/main/images/Campgrounds.png">
 </div>
 
 ## A campground
