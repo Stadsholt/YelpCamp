@@ -49,7 +49,7 @@ YelpCamp is a web application designed for adventurers to create, share, and rev
 ## Campgrounds
 
 <div>
-  <img src="https://github.com/Stadsholt/YelpCamp/blob/main/images/CAmpgrounds.png">
+  <img src="https://github.com/Stadsholt/YelpCamp/blob/main/images/Campgrounds.png">
 </div>
 
 ## A campground
